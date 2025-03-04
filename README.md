@@ -7,6 +7,9 @@ Em desenvolvimento
 - Java  
 - MySQL  
 
+## Time de desenvolvedores
+-  Pedro Paulo Albuquerque de Morais
+
 ## Objetivo do Software  
 Gerenciar o acervo de uma biblioteca, permitindo controle de empréstimos, reservas e devoluções de livros.  
 
