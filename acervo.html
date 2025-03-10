@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acervo - BibliotecaApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Acervo - BibliotecaApp</h1>
+    </header>
+
+    <div class="container">
+        <h2>Acervo de Livros</h2>
+        
+        <!-- Filtro para o autor -->
+        <label for="filtro-autor">Filtrar por autor:</label>
+        <input type="text" id="filtro-autor" placeholder="Digite o nome do autor...">
+        
+        <!-- Tabela do acervo -->
+        <table id="tabela-acervo">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Autor</th>
+                    <th>Gênero</th>
+                    <th>Cópias</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <!--Botões de Navegação -->
+    <div class="botao-container-acervo">
+    <button id="btn-voltar" onclick="voltar()">Voltar</button>
+    <button id="cadastrar-livro" style="display:none;">Cadastrar Livro</button>
+</div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
